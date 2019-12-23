@@ -9,4 +9,4 @@ end
 
 require './app'
 require './config/environment'
-require 'sinatra/activerecord/'
+require 'sinatra/activerecord/rake'
