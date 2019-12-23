@@ -4,7 +4,7 @@ require 'bundler/setup'
 Bundler.require(:default, ENV['SINATRA_ENV'])
 
 configure :development do
-  set :database
+  set :database, 'sqlite3'
 end
 
 require './app'
