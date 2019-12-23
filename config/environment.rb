@@ -8,4 +8,4 @@ configure :development do
 end
 
 require './app'
-require 'config'
+require './config/environment'
